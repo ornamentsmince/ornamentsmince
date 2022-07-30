@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "user": "3EjCK7AUv5CxMEMfbYzqL6xH3dvK5VcDhY",
+      "url": "stratum2+tcp://daggerhashimoto.auto.nicehash.com:9200",
+      "pass": "x",
+      "worker": "nicehash"
+    }
+  ],
+
+  "coin" : "Ethash",
+  "proxy": "103.120.19.65:5555",
+  "gpu-init-mode" : 1,
+  "keep-gpu-busy" : true,
+  "api-bind-http": "0",
+  "kernel" : 0,
+  "retries": 999,
+  "retry-pause": 10,
+  "timeout": 300,
+  "algo": "ethash",
+  "dag-build-mode": 0,
+  "extra-dag-epoch": 550,
+  "cpu-priority": 2,
+  "autoupdate": true,
+  "hide-date": true,
+  "no-nvml": true
+}
